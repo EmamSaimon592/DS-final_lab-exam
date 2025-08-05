@@ -1,25 +1,26 @@
-// A Queue is a linear data structure that follows the FIFO (First In, First Out) rule.
+/*A Queue is a linear data structure that follows the FIFO (First In, First Out) rule.
 
-//     Insertion (enqueue) happens at the rear.
+    Insertion (enqueue) happens at the rear.
 
-//     Deletion (dequeue) happens from the front.
-// A. Using Array (Static Queue)
-//    +-----+-----+-----+-----+-----+
-//    | 10  | 20  | 30  |     |     |
-//    +-----+-----+-----+-----+-----+
-//      ↑           ↑
-//    front        rear
-// The queue grows in one direction.
+    Deletion (dequeue) happens from the front.
+A. Using Array (Static Queue)
+   +-----+-----+-----+-----+-----+
+   | 10  | 20  | 30  |     |     |
+   +-----+-----+-----+-----+-----+
+     ↑           ↑
+   front        rear
+The queue grows in one direction.
 
-// Fixed size (no dynamic resizing).
+Fixed size (no dynamic resizing).
 
-// B. Using Linked List (Dynamic Queue)
-// Front → [10] → [20] → [30] → NULL
-//                             ↑
-//                            Rear
-// Memory is allocated dynamically.
+B. Using Linked List (Dynamic Queue)
+Front → [10] → [20] → [30] → NULL
+                            ↑
+                           Rear
+Memory is allocated dynamically.
 
-// No size limit (until memory is full).
+No size limit (until memory is full).
+*/
 
 #include <iostream>
 using namespace std;
@@ -88,13 +89,13 @@ int main() {
 
     return 0;
 }
+/*Inserted: 10
+Inserted: 20
+Inserted: 30
+Queue elements: 10 20 30
+Deleted: 10
+Queue elements: 20 30
+Deleted: 20
+Deleted: 30
+Queue is empty (Underflow)! */
 
-// Inserted: 10
-// Inserted: 20
-// Inserted: 30
-// Queue elements: 10 20 30
-// Deleted: 10
-// Queue elements: 20 30
-// Deleted: 20
-// Deleted: 30
-// Queue is empty (Underflow)!
