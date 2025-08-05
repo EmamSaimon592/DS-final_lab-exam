@@ -1,10 +1,10 @@
-BFS visits all neighbors of a node before going deeper.
+/*BFS visits all neighbors of a node before going deeper.
     0
    / \
   1   2
      / \
     3   4
-Starting from 0, BFS traversal: 0 1 2 3 4
+Starting from 0, BFS traversal: 0 1 2 3 4 */
 
 #include <iostream>
 #include <vector>
@@ -80,5 +80,6 @@ int main() {
 | Goes         | Deep first           | Level by level        |
 | Suitable for | Backtracking, paths  | Shortest path, levels |
 | Memory use   | Can be high          | Controlled by level   |
+
 
 */
