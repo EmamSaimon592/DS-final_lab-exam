@@ -81,5 +81,6 @@ int main() {
 | Suitable for | Backtracking, paths  | Shortest path, levels |
 | Memory use   | Can be high          | Controlled by level   |
 
-
+ok
 */
+
